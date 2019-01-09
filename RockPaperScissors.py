@@ -1,5 +1,5 @@
 print("Welcome to rock paper scissors!")
-print("Decide who will be player 1 and player two, then enter either 'rock', 'paper' or 'scissors' to choose your move!")
+print("Decide who will be player 1 and player 2, then enter either 'rock', 'paper' or 'scissors' to choose your move!")
 print("Remember to look away while your oppenent is typing for a fair game.")
 
 
@@ -47,5 +47,7 @@ while response == "yes":
                 print("Tie!")
                 print("Do you want to play again? Enter 'yes' or 'no'.")
                 response = input()
+        else:
+            response = input(("You entered a choice incorrectly! Do you want to play again? Enter either 'yes' or 'no'."))
 if response == "no":
     print("Thanks for playing!")
