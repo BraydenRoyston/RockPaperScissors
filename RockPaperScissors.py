@@ -1,6 +1,6 @@
 print("Welcome to rock paper scissors!")
 print("Decide who will be player 1 and player 2, then enter either 'rock', 'paper' or 'scissors' to choose your move!")
-print("Remember to look away while your oppenent is typing for a fair game.")
+print("Remember to look away while your opponent is typing for a fair game.")
 
 
 response = "yes"
